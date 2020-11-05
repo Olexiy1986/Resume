@@ -9,14 +9,13 @@
   max-width: 500px;
 }
 
-
 /*header*/
 
 .head-title {
   font-family: "ubuntu", sans-serif;
   font-size: 36px;
   font-weight: normal;
-  color: #21958c;
+  color: brown;
   padding-top: 30px;
   padding-bottom: 6px;
 }
@@ -32,7 +31,6 @@
   padding-bottom: 20px;
   font-style: italic;
 }
-
 
 /*contacts*/
 
@@ -92,7 +90,7 @@ p {
   bottom: 4px;
 }
 
-.telegram:hover>.telegram-svg {
+.telegram:hover > .telegram-svg {
   animation-name: telegram;
   animation-duration: 1s;
   animation-timing-function: linear;
@@ -108,13 +106,12 @@ p {
   }
 }
 
-
 /*main*/
 
 .main--head {
   text-transform: uppercase;
   font-family: "ubuntu", sans-serif;
-  color: #21958c;
+  color: brown;
   padding-bottom: 10px;
 }
 
@@ -190,7 +187,7 @@ p {
   color: black;
 }
 
-.personal-projects-link:hover>.work-svg-animation {
+.personal-projects-link:hover > .work-svg-animation {
   animation-name: work;
   animation-duration: 2s;
   animation-timing-function: linear;
